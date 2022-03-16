@@ -1,0 +1,17 @@
+''' 
+16/03/2022
+xadina02
+'''
+
+import turtle
+window=turtle.Screen()
+star=turtle.Turtle()
+star.hideturtle()
+star.pendown()
+star.left(71)
+star.forward(250)
+for _ in range(4):
+	star.right(144)
+	star.forward(250)
+star.showturtle()
+window.mainloop()
