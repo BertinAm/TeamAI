@@ -1,0 +1,15 @@
+'''
+17/03/2022
+by @xadina02
+'''
+
+import math
+a=float(input("Input length of first side:  "))
+b=float(input("Input length of second side:  "))
+c=float(input("Input length of hypotenus: "))
+threshold=(1e-7)
+hyp=math.sqrt(a**2.0 + b**2.0)
+if abs(hyp-c)<threshold:
+   print("\nThe triangle is a Right Angled Triangle")
+else:
+   print("\nThe triangle is not a Right Angled Triangle")
