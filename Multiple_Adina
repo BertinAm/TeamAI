@@ -1,0 +1,25 @@
+'''
+16/03/2022
+@xadina02
+'''
+
+numbers=[12,10,32,3,66,17,42,99,20]
+for num in numbers:
+	print(num)
+print("\n")
+for num in numbers:
+	print(num,"\t",num**2)
+print("\n")
+total=0
+i=0
+while i<9:
+	total=total+numbers[i]
+	i+=1
+print("total=",total)
+print("\n")
+product=1
+j=0
+while j<9:
+	product=product*numbers[j]
+	j+=1
+print("product=",product)
