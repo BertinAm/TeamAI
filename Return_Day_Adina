@@ -1,0 +1,12 @@
+'''
+18/03/2022
+by @xadina02
+'''
+
+days=[("Sunday",0),("Monday",1),("Tuesday",2),("Wednesday",3),("Thursday",4),("Friday",5),("Saturday",6)]
+numb=int(input("enter starting day number:  "))
+len=int(input("enter length of stay: "))
+num=(numb+len)%7
+for day,nb in days:
+	if num==nb:
+		print("You shall return on ",day)
