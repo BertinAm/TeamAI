@@ -1,0 +1,5 @@
+first_len = int(input("enter the first lenght"))
+second_len = int(input("enter second length"))
+hyp_2 = (first_len**2 + second_len**2)
+hypotenuse = hyp_2 ** 0.5
+print( "the hypotenuse is  " + str(hypotenuse))
