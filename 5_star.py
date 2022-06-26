@@ -1,15 +1,16 @@
 import turtle
 window=turtle.Screen()
 window.bgcolor("blue")
-window.title("hello")
+window.title("5-sided star")
 
 alex=turtle.Turtle()
 alex.color("pink")
 
-alex.pensize(5)
-for i in range(10):
-alex.forward(80)
-alex.left(72)
-alex.forward(80)
-alex.left(72)
+alex.pensize(11)
+for i in range(5):
+    alex.forward(100)
+    alex.left(72)
+    alex.forward(100)
+    alex.right(144)
+
 window.mainloop()
