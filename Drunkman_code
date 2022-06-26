@@ -1,0 +1,12 @@
+'''
+16/03/2022
+@xadina02
+'''
+
+import turtle
+window=turtle.Screen()
+tess=turtle.Turtle()
+for angle in [160,-43,270,-97,-43,200,-940,17,-86]:
+	tess.left(angle)
+	tess.forward(100)
+window.mainloop()

@@ -1,0 +1,4 @@
+#18/03/22
+#Noela completed a_thousand_times.py
+for i in range(1000):
+    print("We like Python's turtles!")

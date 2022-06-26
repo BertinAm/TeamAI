@@ -1,0 +1,10 @@
+'''
+18/03/2022
+by @xadina02
+'''
+
+days=[("Sunday",0),("Monday",1),("Tuesday",2),("Wednesday",3),("Thursday",4),("Friday",5),("Saturday",6)]
+num=int(input("enter number:  "))
+for day,nb in days:
+	if num==nb:
+		print("The corresponding day is ",day)

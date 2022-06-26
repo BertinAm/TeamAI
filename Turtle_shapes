@@ -1,0 +1,41 @@
+''' 
+16/03/2022
+by @xadina02
+'''
+import turtle
+window=turtle.Screen()
+shape=turtle.Turtle()
+
+shape.pensize(2)
+def transition(angle,dist):
+   shape.penup()
+   shape.right(angle)
+   shape.forward(dist)
+   shape.left(angle)
+   shape.pendown()
+   
+shape.penup()
+shape.left(135)
+shape.forward(177)
+shape.right(135)
+shape.pendown()
+for _ in range(3):
+	shape.forward(150)
+	shape.left(120)
+
+transition(0,250)
+for _ in range(4):
+	shape.forward(150)
+	shape.left(90)
+
+transition(90,300)
+for _ in range(6):
+	shape.forward(100)
+	shape.left(60)
+
+transition(180,300)
+for _ in range(8):
+	shape.forward(100)
+	shape.left(45)
+	
+window.mainloop()
