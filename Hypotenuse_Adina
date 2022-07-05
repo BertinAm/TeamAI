@@ -1,0 +1,9 @@
+'''
+18/03/2022
+@xadina02
+'''
+
+import math
+a=float(input("Input length of first side:  "))
+b=float(input("Input length of second side:  "))
+print("The hypothenus is  ",math.sqrt(a**2.0 + b**2.0))

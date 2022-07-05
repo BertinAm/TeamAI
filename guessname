@@ -1,0 +1,11 @@
+def guessname(name):
+    print(name)
+    if (name != "noela"):
+       print("invalid name")
+    else:
+        print("correct name")
+
+for i in range(3):
+    guessname(str(input("guess my name:")))
+
+

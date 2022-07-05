@@ -1,0 +1,41 @@
+#for equilateral triangle
+
+import turtle
+window= turtle.Screen()
+window = turtle.title("equilateral triangle")
+window = turtle.bgcolor("green")
+equi=turtle.Turtle()
+for _ in range(3):
+    equi.forward(100)
+    equi . right(240 )
+    
+#for square
+
+import turtle
+window= turtle.Screen()
+window = turtle.title("square")
+window = turtle.bgcolor("green")
+equi=turtle.Turtle()
+for _ in range(4):
+    equi.forward(100)
+    equi . right(90)
+
+#for a hexagon
+
+import turtle
+window = turtle.Screen()
+window = turtle.title("hexagon")
+hex = turtle.Turtle()
+for _ in range(6):
+    hex.forward(100)
+    hex.right(60)   
+    
+#for octagone
+
+import turtle
+window = turtle.Screen()
+window = turtle.title("hexagon")
+hex = turtle.Turtle()
+for _ in range(8):
+    hex.forward(100)
+    hex.right(45)    
